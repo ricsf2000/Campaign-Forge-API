@@ -1,6 +1,6 @@
 package com.thecampaignforge.campaignforge.controllers;
 
-import com.thecampaignforge.campaignforge.DTOs.NoteDTO;
+import com.thecampaignforge.campaignforge.dtos.NoteDTO;
 import com.thecampaignforge.campaignforge.models.Note;
 import com.thecampaignforge.campaignforge.services.NoteService;
 import org.bson.types.ObjectId;

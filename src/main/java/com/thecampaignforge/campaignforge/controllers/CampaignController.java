@@ -1,6 +1,6 @@
 package com.thecampaignforge.campaignforge.controllers;
 
-import com.thecampaignforge.campaignforge.DTOs.CampaignDTO;
+import com.thecampaignforge.campaignforge.dtos.CampaignDTO;
 import com.thecampaignforge.campaignforge.services.CampaignService;
 import com.thecampaignforge.campaignforge.models.Campaign;
 import org.bson.types.ObjectId;

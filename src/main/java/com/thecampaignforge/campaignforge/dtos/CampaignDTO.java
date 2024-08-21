@@ -1,5 +1,4 @@
-package com.thecampaignforge.campaignforge.DTOs;
-
+package com.thecampaignforge.campaignforge.dtos;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -7,12 +6,11 @@ import java.util.Date;
 
 @Data
 @AllArgsConstructor
-public class NoteDTO {
+public class CampaignDTO {
     private String id;
-    private String campaignId;
     private String userId;
-    private String title;
-    private String content;
+    private String name;
+    private String description;
     private Date createdAt;
     private Date updatedAt;
 }
