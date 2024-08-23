@@ -56,4 +56,4 @@ jobs:
         with:
           app-name: 'campaignForgeBackend'
           slot-name: 'Production'
-          package: '*.jar'
+          package: 'campaignforge-0.0.1-SNAPSHOT.jar'
