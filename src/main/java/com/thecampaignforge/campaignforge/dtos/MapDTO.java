@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MapDTO {
-    private String id;  // Convert ObjectId to String for easier handling in the frontend
+    private String id;
     private String campaignId;
     private String name;
     private String imageUrl;

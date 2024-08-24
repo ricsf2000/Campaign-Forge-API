@@ -35,7 +35,7 @@ public class MapService {
         Optional<Map> mapOptional = mapRepository.findById(mapId);
         if (mapOptional.isPresent()) {
             Map map = mapOptional.get();
-            node.setId(new ObjectId());  // Generate and set a new ObjectId for the node
+            node.setId(new ObjectId());
             map.getNodes().add(node);
             mapRepository.save(map);
             return Optional.of(map);
